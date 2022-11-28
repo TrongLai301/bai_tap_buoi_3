@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table>
+        <tbody>
+         <tr><th>AMOUNT</th>
+         <td>
+              <input type="text"id="AMOUNT"/>
+         </td>
+         </tr>
+         <tr>
+             <th>From Currency</th>
+             <td>
+                <select id="H">
+                    <option value="VND">VND</option>
+                    <option value="USD">USD</option>
+                </select>
+             </td>
+         </tr>
+         <tr>
+            <th>To Currency</th>
+            <td>
+                <select id="M">
+                    <option value="USD">USD</option>
+                    <option value="VND">VND</option>
+                </select>
+            </td>
+         </tr>
+         <tr>
+            <td>
+            <button type="button" onclick="C();">Convert</button>
+            </td>
+        </tr>
+
+        </tbody>
+    </table>
+    <p id="Result"></p>
+    <script src="main.js"></script>
+    </body>
+</html>
